@@ -30,3 +30,9 @@ $x_3$ = number of maximum security doors produced
 
 ### Objective function
 profit = $35x_1 + 45x_2 + 65x_3$
+
+### Constraints
+- the number of maximum security doors sold should be less than the combined total of standard and high security doors sold
+- total machine 1 hours must be less than or equal to 120
+- total machine 2 hours must be less than or equal to 100
+- total manpower hours must be less than or equal to 280
