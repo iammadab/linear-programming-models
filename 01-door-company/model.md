@@ -32,6 +32,8 @@ $x_3$ = number of maximum security doors produced
 profit = $35x_1 + 45x_2 + 65x_3$
 
 ### Constraints
+- produce non negative amount of doors
+  - $x_1, x_2, x_3 \geq 0$ 
 - the number of maximum security doors sold should be less than or equal to the combined total of standard and high security doors sold
   - $x_3 \leq x_2 + x_1$
 - total machine 1 hours must be less than or equal to 120
