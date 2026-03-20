@@ -1,0 +1,22 @@
+## Problem Statement
+The Terre Haute Door Company (THDC) designs three types of steel doors: Standard, High Security, and Maximum Security.
+
+Each door requires different amounts of machine and labor time and has different profit margins; this information is given in the following table.
+
+| Door Type         | M1 Hours | M1 Manpower | M2 Hours | M2 Manpower | Profit Margin |
+|-------------------|---------:|------------:|---------:|------------:|--------------:|
+| Standard          |       3.5|            5|         4|            6|            $35|
+| High Security     |         6|            8|         5|            7|            $45|
+| Maximum Security  |         8|           11|         6|            9|            $65|
+
+Each door must go through both machine 1 and machine 2 before it can be sold.
+
+Each worker is assigned to work on only one of the doors, which means they work on both machines. 
+
+In addition, management has decided not to sell more Maximum Security doors than the combined total of Standard and High Security doors sold,
+in order to keep demand high for Standard and High Security doors. 
+
+THDC has available to it only 120 hours per week on machine 1 and 100 hours on machine 2 before required maintenance,
+and 280 hours of manpower available per week.
+
+If we assume that we can sell every door that we make, how many of each door should be produced each week in order to maximize profit?
