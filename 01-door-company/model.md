@@ -32,7 +32,12 @@ $x_3$ = number of maximum security doors produced
 profit = $35x_1 + 45x_2 + 65x_3$
 
 ### Constraints
-- the number of maximum security doors sold should be less than the combined total of standard and high security doors sold
+- the number of maximum security doors sold should be less than or equal to the combined total of standard and high security doors sold
+  - $x_3 \leq x_2 + x_1$
 - total machine 1 hours must be less than or equal to 120
+  - $3.5x_1 + 6x_2 + 8x_3 \leq 120$ 
 - total machine 2 hours must be less than or equal to 100
+  - $4x_1 + 5x_2 + 6x_3 \leq 100$
 - total manpower hours must be less than or equal to 280
+  - $(5 + 6)x_1 + (8 + 7)x_2 + (11 + 9)x_3 \leq 200$
+  - $11x_1 + 15x_2 + 20x_3 \leq 200$
