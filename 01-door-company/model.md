@@ -20,3 +20,13 @@ THDC has available to it only 120 hours per week on machine 1 and 100 hours on m
 and 280 hours of manpower available per week.
 
 If we assume that we can sell every door that we make, how many of each door should be produced each week in order to maximize profit?
+
+## Modelling
+
+### Decision variables
+$x_1$ = number of standard doors produced
+$x_2$ = number of high security doors produced
+$x_3$ = number of maximum security doors produced
+
+### Objective function
+profit = $35x_1 + 45x_2 + 65x_3$
