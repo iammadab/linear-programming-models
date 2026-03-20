@@ -9,7 +9,7 @@ workers are needed to run the various machines. Below are the minimum number of 
 | 8AM - 12PM |                15|
 | 12PM - 4PM |                14|
 |  4PM - 8PM |                13|
-| 8PM - 12PM |                11|
+| 8PM - 12AM |                11|
 
 Each worker works two consecutive 4-hour periods. What is the minimum number of workers needed to safely run this plant?
 
@@ -47,4 +47,25 @@ non negativity constraint
 $x_i \geq 0, i \in \{1, ..., 6\}$
 
 ### Solution
+```shelll
+Status: Optimal
 
+Shift starts:
+12 AM - 4 AM  :     0.00
+4 AM - 8 AM   :    11.00
+8 AM - 12 PM  :     4.00
+12 PM - 4 PM  :    10.00
+4 PM - 8 PM   :     3.00
+8 PM - 12 AM  :     8.00
+
+min workers   :    36.00
+
+Constraint analysis:
+name        slack     shadow
+x1          -0.00       1.00
+x2          -2.00       0.00
+x3          -0.00       1.00
+x4          -0.00       0.00
+x5          -0.00       1.00
+x6          -0.00       0.00
+```
