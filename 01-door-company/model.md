@@ -29,7 +29,7 @@ $x_2$ = number of high security doors produced
 $x_3$ = number of maximum security doors produced
 
 ### Objective function
-profit = $35x_1 + 45x_2 + 65x_3$
+maximize profit = $35x_1 + 45x_2 + 65x_3$
 
 ### Constraints
 - produce non negative amount of doors
@@ -41,5 +41,5 @@ profit = $35x_1 + 45x_2 + 65x_3$
 - total machine 2 hours must be less than or equal to 100
   - $4x_1 + 5x_2 + 6x_3 \leq 100$
 - total manpower hours must be less than or equal to 280
-  - $(5 + 6)x_1 + (8 + 7)x_2 + (11 + 9)x_3 \leq 200$
-  - $11x_1 + 15x_2 + 20x_3 \leq 200$
+  - $(5 + 6)x_1 + (8 + 7)x_2 + (11 + 9)x_3 \leq 280$
+  - $11x_1 + 15x_2 + 20x_3 \leq 280$
