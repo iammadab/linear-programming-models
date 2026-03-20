@@ -43,3 +43,14 @@ maximize profit = $35x_1 + 45x_2 + 65x_3$
 - total manpower hours must be less than or equal to 280
   - $(5 + 6)x_1 + (8 + 7)x_2 + (11 + 9)x_3 \leq 280$
   - $11x_1 + 15x_2 + 20x_3 \leq 280$
+
+### Solution
+```shell
+Status: Optimal
+standard = 9.0322581
+high_security = 0.0
+maximum_security = 9.0322581
+profit =  903.22581
+```
+```
+```
