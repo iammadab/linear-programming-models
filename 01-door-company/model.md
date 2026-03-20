@@ -52,5 +52,12 @@ high_security = 0.0
 maximum_security = 9.0322581
 profit =  903.22581
 ```
-```
+
+Discrete Solution
+```shell
+Status: Optimal
+standard = 9.0
+high_security = 0.0
+maximum_security = 9.0
+profit =  900.0
 ```

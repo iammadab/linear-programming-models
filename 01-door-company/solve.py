@@ -2,9 +2,15 @@ import pulp as pl
 
 model = pl.LpProblem("THDC", pl.LpMaximize)
 
+# continuous variables
 x_1 = pl.LpVariable("standard", lowBound = 0)
 x_2 = pl.LpVariable("high_security", lowBound = 0)
 x_3 = pl.LpVariable("maximum_security", lowBound = 0)
+
+# discrete variables
+# x_1 = pl.LpVariable("standard", lowBound = 0, cat="Integer")
+# x_2 = pl.LpVariable("high_security", lowBound = 0, cat="Integer")
+# x_3 = pl.LpVariable("maximum_security", lowBound = 0, cat="Integer")
 
 # objective
 model += 35*x_1 + 45*x_2 + 65*x_3
